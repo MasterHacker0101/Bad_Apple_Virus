@@ -1,1 +1,35 @@
 # Bad_Apple_Virus
+Bad Apple Popup Player
+
+This project plays "bad_apple.wav" and opens popup message boxes on the beat
+using "error.vbs" and "warning.vbs".
+
+Requirements
+- Windows
+- The following files must be in the same folder:
+  - Bad Apple.exe
+  - bad_apple.wav
+  - error.vbs
+  - warning.vbs
+
+How to run
+1. Open this folder.
+2. Double-click "Bad Apple.exe".
+
+What it does
+- Plays "bad_apple.wav".
+- Opens "error.vbs" and "warning.vbs" popups in alternating order on each beat.
+- If too many popup tasks are still open at the same time, the script closes them
+  and starts opening new ones again.
+- When the song finishes, all popup tasks are closed automatically.
+
+How to stop
+- Press ESC at any time to stop playback and close the popup tasks.
+- ESC is checked globally, so it still works when the script is running hidden.
+
+Notes
+- This script is designed for Windows because it uses:
+  - winsound
+  - wscript.exe
+  - Windows keyboard APIs
+- If a required file is missing, the script will exit immediately.
