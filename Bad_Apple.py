@@ -10,7 +10,7 @@ WAV_PATH = os.path.join(os.path.dirname(__file__), "bad_apple.wav")
 ERROR_VBS_PATH = os.path.join(os.path.dirname(__file__), "error.vbs")
 WARNING_VBS_PATH = os.path.join(os.path.dirname(__file__), "warning.vbs")
 TEMPO = 138
-MAX_ACTIVE_POPUPS = 30
+MAX_ACTIVE_POPUPS = 40
 VK_ESCAPE = 0x1B
 
 
